@@ -66,7 +66,7 @@ public class RoomTemplate : MonoBehaviour
         
         if (m_numberOfEnemiesToSpawn > 0f)
         {
-            Instantiate(m_enemies[Random.Range(0, m_enemies.Length)], rooms[Random.Range(0, rooms.Count - 1)].transform.position, Quaternion.identity);
+            Instantiate(m_enemies[Random.Range(0, m_enemies.Length)], rooms[Random.Range(1, rooms.Count - 1)].transform.position, Quaternion.identity);
             m_numberOfEnemiesToSpawn--;
             
             if (m_numberOfEnemiesToSpawn <= 0f)

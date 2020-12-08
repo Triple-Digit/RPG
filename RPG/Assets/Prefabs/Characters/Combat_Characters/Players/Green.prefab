@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 404824fe7bbc0e343b82cc05702e4315, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0f749b262fdfb81468b5dd078f2f0666, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,7 +101,7 @@ MonoBehaviour:
   - Heavy Attack
   - Special Attack
   m_characterName: Green
-  m_currentHealth: 100
+  m_currentHealth: 86
   m_maxHealth: 100
   m_strenth: 10
   m_defense: 25
